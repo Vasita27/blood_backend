@@ -16,7 +16,7 @@ app.post('/api/predict', async (req, res) => {
 
         // NOTE: you must manually enter your API_KEY below using information retrieved from your IBM Cloud account (https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml-authentication.html)
         const API_KEY = process.env.API_KEY;
-go
+
         function getToken(errorCallback, loadCallback) {
             const req = new XMLHttpRequest();
             req.addEventListener("load", loadCallback);
